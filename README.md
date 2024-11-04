@@ -12,7 +12,7 @@
 | Участник            | Telegram                                     | GitHub                                          |
 |---------------------|----------------------------------------------|-------------------------------------------------|
 | **Никита Васин**    | [@ni_vasin](https://t.me/ni_vasin)          | [nvasin](https://github.com/nvasin)             |
-| **Никита Саранов**  | [@OUR_ELEPHANT_SB](https://t.me/OUR_ELEPHANT_SB) | *GitHub*                               |
+| **Никита Саранов**  | [@OUR_ELEPHANT_SB](https://t.me/OUR_ELEPHANT_SB) | [Rassssssss](https://github.com/Rassssssss)             |
 | **Алексей Беляев**  | [@AlexeyBelyaev1](https://t.me/AlexeyBelyaev1) | *GitHub*                               |
 | **Динар Заяхов**    | [@DinarZayahov](https://t.me/DinarZayahov)  | [DinarZayahov](https://github.com/DinarZayahov) |
 
