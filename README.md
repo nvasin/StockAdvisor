@@ -68,7 +68,7 @@ StockAdvisor — это приложение для анализа и прогн
    git clone <URL_репозитория>
    cd StockAdvisor
    ```
-2. Выполните сборку и запуск контейнеров:
+2. Выполните сборку и запуск контейнеров из StockAdvisor/docker:
    ```bash
    docker-compose up --build
    ```
