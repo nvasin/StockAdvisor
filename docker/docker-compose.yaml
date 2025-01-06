@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ../
+      dockerfile: docker/backend.Dockerfile
+    container_name: stockadvisor_backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ../:/StockAdvisor
+      - ../logs:/StockAdvisor/logs
+      - ../datasets:/StockAdvisor/datasets
+  streamlit:
+    build:
+      context: ..
+      dockerfile: docker/frontend.Dockerfile
+    container_name: stockadvisor_frontend
+    volumes:
+      - ../:/StockAdvisor
+    ports:
+      - "8501:8501"
+    working_dir: /StockAdvisor
+    command: streamlit run app/frontend.py --server.port=8501 --server.address=0.0.0.0
+

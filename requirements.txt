@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+statsmodels
+numpy
+scikit-learn
+streamlit
+plotly

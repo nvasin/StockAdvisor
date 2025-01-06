@@ -1,2 +1,4 @@
 
 /datasets/moex
+app/__pycache__/backend.cpython-39.pyc
+*.pyc
