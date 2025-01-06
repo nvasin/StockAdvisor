@@ -214,7 +214,7 @@ def get_predictions(model_id: List[str] = Query(...)):
         # Fetch the model using its ID
         model_entry = get_model_by_id(model_id)
         if not model_entry:
-            logger.warning(f"Модель с ID {mid} не найдена.")
+            logger.warning(f"Модель с ID {model_id} не найдена.")
             results.append({
                 "model_id": model_id,
                 "error": "Модель не найдена."
